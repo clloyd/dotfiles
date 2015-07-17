@@ -1,0 +1,210 @@
+linters:
+  BorderZero:
+    enabled: false
+
+  CapitalizationInSelector:
+    enabled: true
+
+  ColorKeyword:
+    enabled: true
+
+  Comment:
+    enabled: false
+
+  DebugStatement:
+    enabled: true
+
+  DeclarationOrder:
+    enabled: false
+
+  DuplicateProperty:
+    enabled: true
+
+  MergeableSelector:
+    enabled: false
+
+  DuplicateRoot:
+    enabled: false
+
+  EmptyLineBetweenBlocks:
+    enabled: false
+    ignore_single_line_blocks: true
+
+  EmptyRule:
+    enabled: false
+
+  FinalNewline:
+    enabled: true
+    present: true
+
+  HexFormat:
+    enabled: false
+
+  IdWithExtraneousSelector:
+    enabled: true
+
+  Indentation:
+    enabled: true
+    width: 4
+
+  LeadingZero:
+    enabled: true
+    style: include_zero # or 'exclude_zero '
+
+  NameFormat:
+    enabled: false
+    convention: hyphenated_BEM
+
+  PlaceholderInExtend:
+    enabled: true
+
+  PropertySortOrder:
+    enabled: true
+    ignore_unspecified: true
+    order:
+      - content
+      - flex
+      - display
+      - visibility
+      - position
+      - top
+      - right
+      - bottom
+      - left
+      - float
+      - clear
+      - width
+      - height
+      - min-width
+      - max-width
+      - min-height
+      - max-height
+      - margin
+      - padding
+      - border
+      - border-top
+      - border-right
+      - border-bottom
+      - border-left
+      - border-width
+      - border-top-width
+      - border-right-width
+      - border-bottom-width
+      - border-left-width
+      - border-style
+      - border-top-style
+      - border-right-style
+      - border-bottom-style
+      - border-left-style
+      - border-radius
+      - border-top-left-radius
+      - border-top-right-radius
+      - border-bottom-left-radius
+      - border-bottom-right-radius
+      - line-height
+      - vertical-align
+      - columns
+      - column-gap
+      - column-fill
+      - column-rule
+      - column-span
+      - column-count
+      - column-width
+      - font
+      - font-family
+      - font-size
+      - font-weight
+      - font-smoothing
+      - font-style
+      - word-spacing
+      - letter-spacing
+      - white-space
+      - text-align
+      - text-indent
+      - text-transform
+      - text-decoration
+      - text-rendering
+      - text-shadow
+      - text-overflow
+      - cursor
+      - opacity
+      - background
+      - background-color
+      - background-image
+      - background-repeat
+      - background-position
+      - background-size
+      - color
+      - z-index
+
+  PropertySpelling:
+    enabled: true
+    extra_properties:
+      - text-size-adjust
+
+  QualifyingElement:
+    enabled: true
+
+  SelectorDepth:
+    enabled: true
+    max_depth: 3
+
+  SelectorFormat:
+    enabled: true
+    convention: hyphenated_BEM
+
+  Shorthand:
+    enabled: true
+
+  SingleLinePerProperty:
+    enabled: true
+
+  SingleLinePerSelector:
+    enabled: true
+
+  SpaceAfterComma:
+    enabled: true
+
+  SpaceAfterPropertyColon:
+    enabled: false
+    style: aligned
+
+  SpaceAfterPropertyName:
+    enabled: false
+    allow_extra_spaces: true
+
+  SpaceBeforeBrace:
+    enabled: true
+    allow_single_line_padding: false
+
+  SpaceBetweenParens:
+    enabled: true
+    spaces: 0
+
+  StringQuotes:
+    enabled: false
+    style: single_quotes
+
+  TrailingSemicolon:
+    enabled: true
+
+  TrailingSemicolonAfterPropertyValue:
+    enabled: true
+
+  UnnecessaryMantissa:
+    enabled: true
+
+  UnnecessaryParentReference:
+    enabled: true
+
+  UrlFormat:
+    enabled: false
+
+  UrlQuotes:
+    enabled: false
+
+  ZeroUnit:
+    enabled: true
+
+  Compass::*:
+    enabled: false
